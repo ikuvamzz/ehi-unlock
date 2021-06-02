@@ -1,0 +1,33 @@
+{
+	"botToken": "920676640:AAFRsvptK9aj12G9eaxBy_Wki2bf5wF8arw",
+	"storagePath": "storage/",
+	"maxFileSize": 5048578,
+	"loopRefresh": 50000,
+	"keyFile": "./cfg/keyFile.json",
+	"validExtensions": [
+		".ePro",
+		".epro",
+		".acm",
+		".zxc",
+		".hc",
+		".sks",
+		".tut",
+		".tmt",
+		".cyh",
+		".tsn",
+		".kfd",
+		".dsi",
+		".rf",
+		".hat",
+		".asht",
+		".tls",
+		".ehi"
+	],
+	"stats": {
+		"totalFiles": 274,
+		"decryptedFiles": 5,
+		"failedFiles": 0
+	},
+	"language": "english",
+	"layout": "default"
+}
