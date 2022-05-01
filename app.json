@@ -1,0 +1,31 @@
+{
+    "name": "Decrypt Bot",
+    "description": "Simple Telegram Bot to decrypt files",
+    "logo": "https://telegra.ph/file/583f46da57641b90c28f9.png",
+    "keywords": [
+        "decrypt",
+        "Telegram Bot"
+    ],
+    "website": "https://t.me/NexaBotsUpdates",
+    "repository": "https://github.com/ikuvamzz/hctool/edit/main/app.json",
+    "success_url": "https://github.com/ikuvamzz/hctool/edit/main/app.json",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token fromtelegram.org",
+            "required": false
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
